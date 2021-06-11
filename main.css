@@ -6,17 +6,25 @@
 
 body
 {
-  padding: 0;
-  margin: 0;
   background: #fffd7334;
-  display: flex;
-  flex-direction: column;
   background-image: linear-gradient(135deg, #000000 0%,#00000079 100%);
 }
 
 body::-webkit-scrollbar
 {
   display: none;
+}
+
+.flex-container
+{
+  width: 100vw;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  background: #fffd7334;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(135deg, #000000 0%,#00000079 100%);
 }
 
 #collage
