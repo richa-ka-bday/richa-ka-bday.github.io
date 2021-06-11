@@ -21,10 +21,10 @@ body::-webkit-scrollbar
   min-height: 100vh;
   padding: 0;
   margin: 0;
-  background: #fffd7334;
   display: flex;
   flex-direction: column;
-  background-image: linear-gradient(135deg, #000000 0%,#00000079 100%);
+  background-color: #89d8d3;
+background-image: linear-gradient(315deg, #89d8d3 0%, #03c8a8 74%);
 }
 
 #collage
@@ -36,5 +36,5 @@ body::-webkit-scrollbar
 #bday_video
 {
   width: 100vw;
-  height: auto;
+  height: 100vh;
 }
